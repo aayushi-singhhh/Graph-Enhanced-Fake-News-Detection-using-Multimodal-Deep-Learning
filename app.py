@@ -16,6 +16,20 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
+# Enhanced explainability with LIME/SHAP
+try:
+    import lime
+    from lime.lime_text import LimeTextExplainer
+    LIME_AVAILABLE = True
+except ImportError:
+    LIME_AVAILABLE = False
+
+try:
+    import shap
+    SHAP_AVAILABLE = True
+except ImportError:
+    SHAP_AVAILABLE = False
+
 # Download required NLTK data
 @st.cache_resource
 def download_nltk_data():
