@@ -7,6 +7,10 @@ import seaborn as sns
 from datetime import datetime
 import os
 import glob
+import base64
+import io
+import zipfile
+from collections import Counter
 
 # Text preprocessing imports
 import re
@@ -29,6 +33,17 @@ try:
     SHAP_AVAILABLE = True
 except ImportError:
     SHAP_AVAILABLE = False
+
+# For PDF generation
+try:
+    from reportlab.lib import colors
+    from reportlab.lib.pagesizes import letter, A4
+    from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, PageBreak
+    from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+    from reportlab.lib.units import inch
+    PDF_AVAILABLE = True
+except ImportError:
+    PDF_AVAILABLE = False
 
 # Download required NLTK data
 @st.cache_resource
