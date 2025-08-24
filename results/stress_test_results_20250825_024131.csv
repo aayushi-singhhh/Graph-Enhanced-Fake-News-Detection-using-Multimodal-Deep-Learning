@@ -1,0 +1,46 @@
+source,type,title,prediction,confidence,expected,correct,text_length,timestamp
+BBC,reliable,Inside Donetsk as residents flee Ukrainian region Putin wants to control,REAL,0.74,REAL,True,178,2025-08-25T02:40:56.816791
+BBC,reliable,Zelensky vows to continue fighting as Ukraine marks independence day,REAL,0.9,REAL,True,189,2025-08-25T02:40:57.873708
+BBC,reliable,Government plans to overhaul asylum appeals system,REAL,0.7,REAL,True,153,2025-08-25T02:40:58.914468
+BBC,reliable,Israel pounds Gaza City in preparation for planned offensive,REAL,0.91,REAL,True,191,2025-08-25T02:40:59.948358
+BBC,reliable,Worker who died at funfair 'will be loved endlessly',REAL,0.92,REAL,True,153,2025-08-25T02:41:01.007313
+NYT,reliable,"In Washington Crackdown, Making a Federal Case Out of Low-Level Arrests",REAL,0.58,REAL,True,212,2025-08-25T02:41:02.366481
+NYT,reliable,"After Trump’s Threat to Send National Guard to Chicago, Democrats Push Back",REAL,0.89,REAL,True,237,2025-08-25T02:41:03.404740
+NYT,reliable,"Reframing Jan. 6: After the Pardons, the Purge",REAL,0.88,REAL,True,231,2025-08-25T02:41:04.445210
+NYT,reliable,China Looms Large as South Korea’s President Meets With Trump,REAL,0.69,REAL,True,183,2025-08-25T02:41:05.490127
+NYT,reliable,Peace Talks in Ukraine All Lead to the Donbas,REAL,0.81,REAL,True,202,2025-08-25T02:41:06.537998
+CNN,reliable,Trump pleads not guilty to 34 felony counts,REAL,0.97,REAL,True,44,2025-08-25T02:41:08.448850
+CNN,reliable,Haberman reveals why Trump attacked judge and his family in speech,REAL,0.7,REAL,True,272,2025-08-25T02:41:09.495834
+CNN,reliable,What to know about the Trump indictment on the eve of his court appearance,REAL,0.94,REAL,True,75,2025-08-25T02:41:10.559386
+CNN,reliable,READ: Trump indictment related to hush money payment,REAL,0.86,REAL,True,53,2025-08-25T02:41:11.604065
+CNN,reliable,Russian authorities detain suspect over St. Petersburg cafe blast,REAL,1.0,REAL,True,66,2025-08-25T02:41:12.642949
+NPR,reliable,SpaceX prepares for 10th test launch of massive Starship rocket,REAL,0.93,REAL,True,252,2025-08-25T02:41:13.865387
+NPR,reliable,Millions in West facing dangerous heatwave amid multiple wildfires,REAL,0.62,REAL,True,188,2025-08-25T02:41:14.898880
+NPR,reliable,Illinois officials blast Trump's threat to deploy National Guard in Chicago,REAL,0.83,REAL,True,247,2025-08-25T02:41:15.938702
+NPR,reliable,It was the costliest hurricane in U.S. history: Have we forgotten Katrina's lessons?,REAL,0.89,REAL,True,268,2025-08-25T02:41:16.982516
+NPR,reliable,The state of Michigan hopes its scents will bring people to visit,REAL,0.66,REAL,True,236,2025-08-25T02:41:18.040721
+Guardian,reliable,Eswatini government faces court challenge over men deported by US,REAL,0.78,REAL,True,835,2025-08-25T02:41:19.231404
+Guardian,reliable,Uganda reaches agreement with US to take in some failed asylum seekers,REAL,0.87,REAL,True,925,2025-08-25T02:41:20.276974
+Guardian,reliable,Pressure grows on Tanzania to free victim of domestic violence who has been on death row for 13 year,REAL,0.84,REAL,True,785,2025-08-25T02:41:21.317683
+Guardian,reliable,South African minister investigated for historical racial slurs on social media,REAL,0.89,REAL,True,1234,2025-08-25T02:41:22.357795
+Guardian,reliable,Uganda denies reports that it has struck deal with Trump to take in US deportees,REAL,0.87,REAL,True,1098,2025-08-25T02:41:23.404551
+adversarial_1,adversarial,You WON'T BELIEVE What This Celebrity Did! Doctors HATE This Simple Trick!,REAL,0.86,FAKE,False,74,2025-08-25T02:41:26.208759
+adversarial_2,adversarial,BREAKING: Government Hiding SHOCKING Truth About Vaccines - Scientists Reveal All!,REAL,0.95,FAKE,False,82,2025-08-25T02:41:26.753829
+adversarial_3,adversarial,"URGENT: If You Don't Share This, Something TERRIBLE Will Happen to Your Family!",REAL,0.99,FAKE,False,79,2025-08-25T02:41:27.310666
+adversarial_4,adversarial,STUDY PROVES: 99.9% of People Don't Know This AMAZING Secret That Big Pharma Hides!,REAL,0.98,FAKE,False,83,2025-08-25T02:41:27.856723
+adversarial_5,adversarial,Fwd: Fwd: Fwd: MUST READ!!! Bank will close your account if you don't forward this message!!!,REAL,0.77,FAKE,False,93,2025-08-25T02:41:28.401196
+adversarial_6,adversarial,Scientists CONFIRM: Drinking Hot Water Cures Cancer - Medical Industry Doesn't Want You to Know!,REAL,0.72,FAKE,False,96,2025-08-25T02:41:28.941820
+adversarial_7,adversarial,EXCLUSIVE LEAKED DOCUMENTS: How [Political Party] Plans to DESTROY Democracy!,REAL,0.97,FAKE,False,77,2025-08-25T02:41:29.483897
+adversarial_8,adversarial,WARNING: New Virus Spreading FAST - 100% Fatal Rate - Media Silent!!!,REAL,0.74,FAKE,False,69,2025-08-25T02:41:30.022972
+adversarial_9,adversarial,Harvard Scientists Discover: This Common Food Item is Actually DEADLY Poison!,REAL,0.84,FAKE,False,77,2025-08-25T02:41:30.564482
+adversarial_10,adversarial,BREAKING: Major Earthquake Hits California - Death Toll Rising - Government Cover-up Exposed!,REAL,0.94,FAKE,False,93,2025-08-25T02:41:31.107930
+edge_case_1,edge_case,'',ERROR,0.0,UNKNOWN,False,0,2025-08-25T02:41:31.620387
+edge_case_2,edge_case,'a',ERROR,0.0,UNKNOWN,False,1,2025-08-25T02:41:31.643693
+edge_case_3,edge_case,'The.',ERROR,0.0,UNKNOWN,False,4,2025-08-25T02:41:31.646875
+edge_case_4,edge_case,'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor ,REAL,0.98,UNKNOWN,True,2700,2025-08-25T02:41:31.683038
+edge_case_5,edge_case,'🔥🔥🔥 AMAZING NEWS!!! 🚨🚨🚨',REAL,0.94,UNKNOWN,True,23,2025-08-25T02:41:31.714643
+edge_case_6,edge_case,'THIS IS ALL CAPS SHOUTING ABOUT FAKE NEWS',REAL,0.89,UNKNOWN,True,41,2025-08-25T02:41:31.744237
+edge_case_7,edge_case,'نص باللغة العربية حول الأخبار',REAL,1.0,UNKNOWN,True,29,2025-08-25T02:41:31.776214
+edge_case_8,edge_case,'新闻测试中文文本',REAL,1.0,UNKNOWN,True,8,2025-08-25T02:41:31.808086
+edge_case_9,edge_case,'123456789 $#@!%^&*()',ERROR,0.0,UNKNOWN,False,20,2025-08-25T02:41:31.810609
+edge_case_10,edge_case,'   \n\t   ',ERROR,0.0,UNKNOWN,False,8,2025-08-25T02:41:31.812965
