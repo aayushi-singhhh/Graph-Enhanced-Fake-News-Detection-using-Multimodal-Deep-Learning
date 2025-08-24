@@ -417,7 +417,7 @@ def load_models():
             'model_type': type(model).__name__,
             'model_file': os.path.basename(model_path),
             'vectorizer_file': os.path.basename(vectorizer_path),
-            'features_count': vectorizer.vocabulary_.__len__() if hasattr(vectorizer, 'vocabulary_') else 'unknown',
+            'features_count': str(vectorizer.vocabulary_.__len__() if hasattr(vectorizer, 'vocabulary_') else 'unknown'),
             'loaded_at': datetime.now().isoformat()
         }
         
